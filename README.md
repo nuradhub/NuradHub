@@ -1,4 +1,4 @@
-## Hi there 👋
+Final-Year CS Student | Full-Stack Web Developer (MERN Stack) | Open to Internships & Junior Dev Role
 
 <!--
 **nuradHub/nuradHub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
