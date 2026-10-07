@@ -2,79 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="My Portfolio WEB Page">
-    <meta name="autho" content="Saliu Nurudeen">
+    <meta name="description" content="Saliu Nurudeen - Full-Stack Web Developer & Graphic Designer Portfolio">
+    <meta name="author" content="Saliu Nurudeen">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Saliu Nurudeen | Full-Stack Developer & Designer</title>
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <nav>
-        <div class="port-icon">
-            <img src="icon/portfolio.png" alt="" width="20px">
-            <span>MyPortfolio</span>
-        </div>
-        <ul class="list-items">
-                <li><a href="about.html">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Pages</a></li>
-                <li><a href="#">Blog</a></li>
-        </ul>
-    </nav>
-    <div class="container">
-
-        <div class="about-content">
-
-        <div class="about-me">
-
-        <div class="digital content">
-            <h4><span>Digital designer</span> <br> creating website
-            <br> that is captivating</h4>
-            <p>Hi, am Nurudeen, a front-end developer</p>
-
-        <button>Get in touch</button>
-    
-        </div>
-        </div>
-
-        <div class="passport content">
-            <img src="img/passport.jpg" alt="my passport" width="200px">
-        </div>
-    </div>
-
-    <div class="social-media">
-
-        <h5>Check out my social media page</h5>
-        <ul>
-            <li><a href="#">facebook</a></li>
-            <li><a href="#">instagram</a></li>
-            <li><a href="#">X(Twiter)</a></li>
-        </ul>
-    </div>
-
-    <div class="services">
-        <h3>Services <span>I believe in</span></h3>
-        <p>here are some of my personal knowledge</p>
-
-        <div class="abilities">
-            <div class="front-end web">
-                <h3>Website Design</h3>
-                <p>I am a front-end Developer</p>
-                <div class="anima1"></div>
+    <header>
+        <nav>
+            <div class="port-icon">
+                <img src="icon/portfolio.png" alt="Portfolio Icon" width="20">
+                <span>NuradHub</span>
             </div>
-            <div class="graphic web">
-                <h3>Graphic Design</h3>
-                <p>I am a Graphic Designer</p>
-                <div class="anima2"></div>
+            <ul class="list-items">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- About Section -->
+        <section class="about-content">
+            <div class="about-me">
+                <div class="digital-content">
+                    <h4><span>Full-Stack Developer & Designer</span> <br> 
+                    building robust web apps <br> 
+                    that captivate users.</h4>
+                    <p>Hi, I'm Saliu Nurudeen (NuradHub), a computer science undergraduate and MERN stack developer crafting seamless digital experiences.</p>
+                    <a href="#contact"><button>Get in touch</button></a>
+                </div>
             </div>
-            <div class="presentation web">
-                <h3>Presentation Design</h3>
-                <p>I can create a well Designed Presentation <br> 
-                using powerpoint</p>
-                <div class="anima3"></div>
+
+            <div class="passport-content">
+                <img src="img/passport.jpg" alt="Saliu Nurudeen passport photo" width="200">
             </div>
-        </div>
-    </div>
-    </div>
+        </section>
+
+        <!-- Social Media Section -->
+        <section class="social-media">
+            <h5>Connect with me</h5>
+            <ul>
+                <li><a href="https://github.com/NuradHub" target="_blank">GitHub</a></li>
+                <li><a href="www.linkedin.com/in/nuradhub" target="_blank">LinkedIn</a></li>
+                <li><a href="https://x.com/nuradDev" target="_blank">Twitter (X)</a></li>
+            </ul>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <h3>My <span>Expertise</span></h3>
+            <p>Here are the core technical and creative services I provide</p>
+
+            <div class="abilities">
+                <div class="front-end web">
+                    <h3>Full-Stack Web Dev</h3>
+                    <p>Building scalable MERN stack apps (React, Node, Express, MongoDB) with clean REST APIs.</p>
+                    <div class="anima1"></div>
+                </div>
+                <div class="graphic web">
+                    <h3>Graphic Design</h3>
+                    <p>Creating brand identities, logos (like NEEMAH), flyers, and custom visual assets.</p>
+                    <div class="anima2"></div>
+                </div>
+                <div class="presentation web">
+                    <h3>Software Solutions</h3>
+                    <p>Developing intelligent tools, automated Telegram bots, and queue management systems.</p>
+                    <div class="anima3"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Saliu Nurudeen. All rights reserved.</p>
+    </footer>
 </body>
 </html>
